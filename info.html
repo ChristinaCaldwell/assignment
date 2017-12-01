@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caldwell Choyce wedding page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+        
+        <!-- Load Leaflet from CDN -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+        integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+        integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+        crossorigin=""></script>
+
+        <!-- Load Esri Leaflet from CDN -->
+        <script src="https://unpkg.com/esri-leaflet@2.1.1/dist/esri-leaflet.js"
+        integrity="sha512-ECQqaYZke9cSdqlFG08zSkudgrdF6I1d8ViSa7I3VIszJyVqw4ng1G8sehEXlumdMnFYfzY0tMgdQa4WCs9IUw=="
+        crossorigin=""></script>
+        
+    </head>
+    <body>
+        
+<section class="hero is-small is-primary">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Chris <i class ="fa fa-heart-o"></i> Colin
+      </h1>
+      <h2 class="subtitle">
+          There'll be a wedding
+      </h2>
+        <a class="button is-medium is-info is-outlined">RSVP</a>
+    </div>
+  </div>
+</section>
+        
+<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <div class="navbar-end">
+      <a class = navbar-item href="index.html">Home</a>
+      <a class = navbar-item href="rsvp.html">Our Story</a>    
+      <a class = navbar-item href="info.html">The Big Day</a>  
+  </div>
+</nav>
+
+<div class="columns">
+  <div class="column is-three-fifths" id="map"></div>
+  <div class="column">IS where the time table goes</div>
+</div>  
+<script src="webmap.js"></script>   
+    </body>
+</html>
