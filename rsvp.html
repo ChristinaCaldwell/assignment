@@ -24,7 +24,7 @@
   </div>
 </section>
         
-<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+<nav class="navbar is-primary" aria-label="main navigation">
   <div class="navbar-end">
       <a class = navbar-item href="index.html">Home</a>
       <a class = navbar-item href="#Story.html">Our Story</a>    
@@ -34,14 +34,12 @@
 
 <h2 class="has-text-centered is-size-2 has-text-black">Friday August 24th 2018</h2>
         
-<form>
-    
 <form name ="myForm" onsubmit="return validateForm()" method = "get">
     
 <div class="field">
   <label class="label">Family Name</label>
   <div class="control">
-    <input class="input" type="text" placeholder="Please enter your family name">
+    <input class="input" type="text" placeholder="Family name">
   </div>
 </div>
 
@@ -63,8 +61,7 @@
     Yes we will be there
   </label>
   <label class="radio">
-    <input type="radio" name="answer">
-    No sorry we can't make it
+    <input type="radio" name="answer">No sorry we can't make it
   </label>
 </div>
     
@@ -72,18 +69,18 @@
 <label class="label">Who will be coming?</label>
   <label class="radio">
     <input type="radio" name="answer">
-    Adults Only
+      Adults Only
   </label>
   <label class="radio">
-    <input type="radio" name="answer">
-    Adults plus children
+      <input type="radio" name="answer">
+      Adults plus children
   </label>
 </div>
     
 <div class="field">
   <label class="label">How many children over 3?</label>
   <div class="control">
-    <input class="input" type="text" placeholder="Number children aged 3+">
+    <input class="input" type="text" placeholder="Only 3+">
   </div>
 </div>
     
@@ -107,18 +104,9 @@
 </label>
     
 <br>
-<button onclick = "alert('We will answer your query as soon as possible')">Submit</button>
-</form>
-    
-    
-        
-        
-        
-        
-        
-        
-</form>
-    
-        
-  </body>
+<a class="button is-medium is-info is-outlined" onclick = "alert('We will answer your query as soon as possible')">Send Reply</a>
+
+</div>       
+</form>        
+</body>
 </html>
