@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caldwell Choyce wedding page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    </head>
+    <body>
+        
+<section class="hero is-small is-primary">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Chris <i class ="fa fa-heart-o"></i> Colin
+      </h1>
+      <h2 class="subtitle">
+          There'll be a wedding
+      </h2>
+        <a class="button is-medium is-info is-outlined">RSVP</a>
+    </div>
+  </div>
+</section>
+        
+<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <div class="navbar-end">
+      <a class = navbar-item href="index.html">Home</a>
+      <a class = navbar-item href="#Story.html">Our Story</a>    
+      <a class = navbar-item href="rsvp.html">The Big Day</a>  
+  </div>
+</nav>
+
+<h2 class="has-text-centered is-size-2 has-text-black">Friday August 24th 2018</h2>
+        
+<form>
+    
+<form name ="myForm" onsubmit="return validateForm()" method = "get">
+    
+<div class="field">
+  <label class="label">Family Name</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Please enter your family name">
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Email address</label>
+  <div class="control has-icons-left">
+    <input class="input is-sucess" type="email" placeholder="Email input" value="yourname@">
+    <span class="icon is-small is-left">
+      <i class="fa fa-envelope"></i>
+    </span>
+  </div>
+</div>
+    
+
+<div class="field">
+<label class="label">Will you be joining us on our wedding day?</label>
+  <label class="radio">
+    <input type="radio" name="answer">
+    Yes we will be there
+  </label>
+  <label class="radio">
+    <input type="radio" name="answer">
+    No sorry we can't make it
+  </label>
+</div>
+    
+<div class="field">
+<label class="label">Who will be coming?</label>
+  <label class="radio">
+    <input type="radio" name="answer">
+    Adults Only
+  </label>
+  <label class="radio">
+    <input type="radio" name="answer">
+    Adults plus children
+  </label>
+</div>
+    
+<div class="field">
+  <label class="label">How many children over 3?</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Number children aged 3+">
+  </div>
+</div>
+    
+<div class="field">
+  <label class="label">Dietary requirements</label>    
+<label class="checkbox">
+  <input type="checkbox">
+  Vegan 
+</label>
+<label class="checkbox">
+  <input type="checkbox">
+   Vegetarian 
+</label>
+<label class="checkbox">
+  <input type="checkbox">
+   Gluten-free 
+</label>
+<label class="checkbox">
+  <input type="checkbox">
+   Dairy-free 
+</label>
+    
+<br>
+<button onclick = "alert('We will answer your query as soon as possible')">Submit</button>
+</form>
+    
+    
+        
+        
+        
+        
+        
+        
+</form>
+    
+        
+  </body>
+</html>
