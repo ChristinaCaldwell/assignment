@@ -24,32 +24,46 @@
     </head>
     <body>
         
-<section class="hero is-small is-primary">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h1 class="title">
-        Chris <i class ="fa fa-heart-o"></i> Colin
-      </h1>
-      <h2 class="subtitle">
-          There'll be a wedding
-      </h2>
-        <a class="button is-medium is-info is-outlined">RSVP</a>
-    </div>
-  </div>
-</section>
-        
-<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-  <div class="navbar-end">
-      <a class = navbar-item href="index.html">Home</a>
-      <a class = navbar-item href="rsvp.html">Our Story</a>    
-      <a class = navbar-item href="info.html">The Big Day</a>  
-  </div>
-</nav>
+<div id ="wrapper">          
+    <section class="hero is-small is-primary">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Chris <i class ="fa fa-heart-o"></i> Colin
+          </h1>
+          <h2 class="subtitle">
+              There'll be a wedding
+          </h2>
+            <a class="button is-medium is-info is-outlined">RSVP</a>
+        </div>
+      </div>
+    </section>
 
-<div class="columns">
-  <div class="column is-three-fifths" id="map"></div>
-  <div class="column">IS where the time table goes</div>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+      <div class="navbar-end">
+          <a class = navbar-item href="index.html">Home</a>
+          <a class = navbar-item href="rsvp.html">Our Story</a>    
+          <a class = navbar-item href="info.html">The Big Day</a>  
+      </div>
+    </nav>
+<!--This is the Interactive Leaflet Map -->
+    <div class="columns">
+      <div class="column is-three-fifths" id="map"></div>
+    <div class="column">
+      <div class="container is-fluid">
+        <div class="notification">
+            <ul><strong>Events of the Day</strong><br>
+                    <li><strong>2pm The Ceremony</strong> Our guests are invited to join us at the wedding ceremony which will take place in Dublin's City Hall. Children are welcome. We are asked by the venue not to throw confetti.</li>
+                    <li><strong>3pm Reception</strong> Immediately after the ceremony there will be a reception where bubbles and canapés will be served in Cty Hall.</li>
+                    <li><strong>4:30pm We are on the move!</strong> We will be walking across town to the next venue, The Chocolate Factory on 26 King's Inn Street. The walk is 20 minutes on foot for anyone who would like to join us.</li>
+                    <li><strong>6pm Dinner</strong> We will be sitting down to dinner at the Chocolate Factory. Again children are welcome.Please advise of any dietary requirements when you RSVP.</li>
+                <li><strong>8pm Music Starts</strong> Music and Dancing at the Chocolate Factory will begin and won't stop until late...</li>
+                </ul>
+            
+        </div>
+      </div>
+    </div>  
 </div>  
-<script src="webmap.js"></script>   
+<script src="webmap.js"></script>
     </body>
 </html>

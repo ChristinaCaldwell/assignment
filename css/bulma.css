@@ -10523,10 +10523,9 @@ label.panel-block:hover {
   }
 }
 
-/*changed made smaller*/
 .hero.is-small .hero-body {
-  padding-bottom: 1.2rem;
-  padding-top: 1.0rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 @media screen and (min-width: 769px), print {
