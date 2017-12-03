@@ -14,21 +14,20 @@
 form{
     color:darkslategray;
     background-color: gainsboro;
+    padding: 0.5cm, 2cm;
 }
 body {
     padding: 0;
     margin: 0;
 }
-/*for mobile*/
+/* map for mobile*/
 #map {
     height: 350px;
-    margin:12px 0px;
+    margin: 12px 48px;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1024px) {
     /* For desktop: */
     #map {height: auto;}
-
-
 
 #footerContainer{
     background:#00C4A7;

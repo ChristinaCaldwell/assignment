@@ -22,7 +22,7 @@
         crossorigin=""></script>
         
     </head>
-    <body>
+<body>
         
 <div id ="wrapper">          
     <section class="hero is-small is-primary">
@@ -39,7 +39,7 @@
       </div>
     </section>
 
-    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-primary" aria-label="main navigation">
       <div class="navbar-end">
           <a class = navbar-item href="index.html">Home</a>
           <a class = navbar-item href="rsvp.html">Our Story</a>    
@@ -48,22 +48,42 @@
     </nav>
 <!--This is the Interactive Leaflet Map -->
     <div class="columns">
-      <div class="column is-three-fifths" id="map"></div>
+            <div class="column is-three-fifths" id="map"></div>
+
+<!--TIMETABLE lIST-->        
     <div class="column">
       <div class="container is-fluid">
         <div class="notification">
-            <ul><strong>Events of the Day</strong><br>
-                    <li><strong>2pm The Ceremony</strong> Our guests are invited to join us at the wedding ceremony which will take place in Dublin's City Hall. Children are welcome. We are asked by the venue not to throw confetti.</li>
-                    <li><strong>3pm Reception</strong> Immediately after the ceremony there will be a reception where bubbles and canapés will be served in Cty Hall.</li>
-                    <li><strong>4:30pm We are on the move!</strong> We will be walking across town to the next venue, The Chocolate Factory on 26 King's Inn Street. The walk is 20 minutes on foot for anyone who would like to join us.</li>
-                    <li><strong>6pm Dinner</strong> We will be sitting down to dinner at the Chocolate Factory. Again children are welcome.Please advise of any dietary requirements when you RSVP.</li>
-                <li><strong>8pm Music Starts</strong> Music and Dancing at the Chocolate Factory will begin and won't stop until late...</li>
-                </ul>
+            <h2 class="has-text-weight-bold">Events of the Day</h2>
+                <dl>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-heart"></i> 2pm The Ceremony</dt> 
+                        <dd>Our guests are invited to join us at the wedding ceremony which will take place in Dublin's City Hall. Children are welcome. We are asked by the venue not to throw confetti.</dd>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-glass"></i> 3pm Reception</dt>
+                        <dd>Immediately after the ceremony there will be a reception where bubbles and canapés will be served in City Hall.</dd>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-taxi"></i> 4:30pm We are on the move!</dt>
+                        <dd> We will be walking across town to the next venue, The Chocolate Factory on 26 King's Inn Street. The walk is 20 minutes on foot for anyone who would like to join us. There is a taxi rank just down the road from City Hall.</dd>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-cutlery"></i> 6pm Dinner</dt>
+                        <dd>We will be sitting down to dinner at the Chocolate Factory. Again children are welcome. Please advise of any dietary requirements when you RSVP.</dd>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-music"></i> 8pm Music Starts</dt>
+                        <dd>Music and Dancing at the Chocolate Factory will begin and won't stop until late...</dd>
+                </dl>
             
         </div>
       </div>
-    </div>  
-</div>  
+    </div> 
+    </div>
+    <!-- Nested Colums--> 
+    <div class="columns"> 
+        <div class="column">
+            <div class="container is-fluid">
+                <div class="notification">
+                    <h2 class="has-text-weight-bold">The Chocolate Factory</h2>
+                        <iframe src="http://www.chocolatefactory.ie/" height="500" width="100%"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
 <script src="webmap.js"></script>
-    </body>
+</body>
 </html>
