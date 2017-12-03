@@ -4,17 +4,10 @@
     border:1px solid #f0e9eb;
 }
 
-#date{
-    position:absolute;
-    left:35%;
-    top:40%;
-    font-size:60px;
-    color:azure;
-}
 form{
     color:darkslategray;
     background-color: gainsboro;
-    padding: 0.5cm, 2cm;
+    padding: 1cm, 2cm;
 }
 body {
     padding: 0;
