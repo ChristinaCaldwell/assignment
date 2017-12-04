@@ -17,8 +17,3 @@ body {
     /* For desktop: */
     #map {height: auto;}
 
-.has-bg-img{
-    background: url("http://lorempixel.com/128/128/");
-    background-repeat: no-repeat;
-    background-position: center;
-    }

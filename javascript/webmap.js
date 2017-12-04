@@ -2,8 +2,7 @@
 //initalise map
 var map = L.map('map',{
     center: [53.347926, -6.268621],
-    zoom: 15,
-    minzoom: 6,
+    zoom: 14,
 });
 //add ESRI basemap
 L.esri.basemapLayer('Gray').addTo(map);
@@ -11,7 +10,7 @@ L.esri.basemapLayer('Gray').addTo(map);
 //add wedding venues
 L.marker([53.351350, -6.267763],{icon:L.icon.mapkey({icon:'restaurant',size:30,color:'#FFFFFF',background:'#209CEE'})}).addTo(map).bindPopup("The Chocolate Factory").openPopup();
 
-L.marker([53.344126,-6.266583],{icon:L.icon.mapkey({icon:'tram_stop',size:30,color:'#FFFFFF',background:'#FFDD57'})}).addTo(map).bindPopup("Tax Rank");
+L.marker([53.344126,-6.266583],{icon:L.icon.mapkey({icon:'tram_stop',size:30,color:'#FFFFFF',background:'#FFDD57'})}).addTo(map).bindPopup("Taxi Rank");
 
 L.marker([53.343817,-6.267228],{icon:L.icon.mapkey({icon:'heart',size:30,color:'#FFFFFF',background:'#FF3860'})}).addTo(map).bindPopup("City Hall");
 
