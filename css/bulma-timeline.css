@@ -272,19 +272,18 @@
 .timeline .timeline-item .timeline-marker.is-dark.is-outlined.is-icon > i {
   color: #363636 !important;
 }
-
+/*CHANGED COLOR*/
 .timeline .timeline-item .timeline-marker.is-primary {
-  background-color: #00d1b2 !important;
-  border-color: #00d1b2 !important;
+  background-color: #4c6d9d !important;
+  border-color: #4c6d9d !important;
 }
-
 .timeline .timeline-item .timeline-marker.is-primary .image {
-  border-color: #00d1b2 !important;
+  border-color: #4c6d9d !important;
 }
-
+/*CHANGED COLOR*/
 .timeline .timeline-item .timeline-marker.is-primary.is-icon {
-  background-color: #00d1b2 !important;
-  border-color: #00d1b2 !important;
+  background-color: #4c6d9d !important;
+  border-color: #4c6d9d !important;
 }
 
 .timeline .timeline-item .timeline-marker.is-primary.is-icon > i {
@@ -351,10 +350,10 @@
 .timeline .timeline-item .timeline-marker.is-info .image {
   border-color: #209cee !important;
 }
-
+/*CHANGED COLOR*/
 .timeline .timeline-item .timeline-marker.is-info.is-icon {
-  background-color: #209cee !important;
-  border-color: #209cee !important;
+  background-color: #F5E679 !important;
+  border-color: #F5E679 !important;
 }
 
 .timeline .timeline-item .timeline-marker.is-info.is-icon > i {
@@ -412,10 +411,10 @@
 .timeline .timeline-item .timeline-marker.is-success.is-outlined.is-icon > i {
   color: #23d160 !important;
 }
-
+/*CHANGED COLOR*/
 .timeline .timeline-item .timeline-marker.is-warning {
-  background-color: #ffdd57 !important;
-  border-color: #ffdd57 !important;
+  background-color: #F5E679 !important;
+  border-color: #F5E679 !important;
 }
 
 .timeline .timeline-item .timeline-marker.is-warning .image {
@@ -456,10 +455,10 @@
 .timeline .timeline-item .timeline-marker.is-danger .image {
   border-color: #ff3860 !important;
 }
-
+/*CHANGED COLOR*/
 .timeline .timeline-item .timeline-marker.is-danger.is-icon {
-  background-color: #ff3860 !important;
-  border-color: #ff3860 !important;
+  background-color: #CC6D7F !important;
+  border-color: #CC6D7F !important;
 }
 
 .timeline .timeline-item .timeline-marker.is-danger.is-icon > i {
