@@ -20,9 +20,7 @@ body {
     .notification {
         background-color: #EFEFEF;
     }
-.navbar.is-primary {
-    background-color: #4C6D9D;
-    }
+
 .button.is-primary{
     background-color: #4C6D9D;
     }
@@ -36,32 +34,6 @@ body {
 .tag.is-medium.is-primary{
     background-color: #4C6D9D;
     }
-
-        
-    
-/*
-.is-danger{
-    background-color: #CC6D7F;
-    }
-    
-.is-warning{
-    background-color: #F5E679;
-    }
-
-#97CFD4 cotton blue
-#EFB6B7 pink
-#4C6D9D blue dark
-#6C7574 smoke grey
-
-
-/*BULMA CSS CHANGED*/
-  .navbar.is-primary .navbar-end > a.navbar-item:hover,
-  .navbar.is-primary .navbar-end > a.navbar-item.is-active,
-  .navbar.is-primary .navbar-end .navbar-link:hover,
-  .navbar.is-primary .navbar-end .navbar-link.is-active {
-    background-color: #99CED5;
-    color: #fff;
-  }
 
 .button.is-primary:hover{
   background-color: #99CED5;
@@ -78,6 +50,21 @@ body {
   color: #fff;
 }
 
+    /*
+.is-danger{
+    background-color: #CC6D7F;
+    }
+    
+.is-warning{
+    background-color: #F5E679;
+    }
+#97CFD4 cotton blue
+#EFB6B7 pink
+#4C6D9D blue dark
+#6C7574 smoke grey
+
+
+*/
 
 
 

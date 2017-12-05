@@ -6631,9 +6631,9 @@ a.dropdown-item.is-active {
     color: whitesmoke;
   }
 }
-
+/*CHANGED COLOR*/
 .navbar.is-primary {
-  background-color: #00d1b2;
+  background-color: #4C6D9D;
   color: #fff;
 }
 
@@ -6660,6 +6660,7 @@ a.dropdown-item.is-active {
   .navbar.is-primary .navbar-end .navbar-link {
     color: #fff;
   }
+/*CSS COLOR CHANGED */    
   .navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active,
   .navbar.is-primary .navbar-start .navbar-link:hover,
   .navbar.is-primary .navbar-start .navbar-link.is-active,
@@ -6667,7 +6668,7 @@ a.dropdown-item.is-active {
   .navbar.is-primary .navbar-end > a.navbar-item.is-active,
   .navbar.is-primary .navbar-end .navbar-link:hover,
   .navbar.is-primary .navbar-end .navbar-link.is-active {
-    background-color: red;
+    background-color: #99CED5;
     color: #fff;
   }
   .navbar.is-primary .navbar-start .navbar-link::after,
