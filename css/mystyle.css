@@ -16,12 +16,6 @@ body {
     /* For desktop: */
     #map {height: auto;}
     
-/* Changing Bulma CSS framework default Colours*/
-    .notification {
-        background-color: #EFEFEF;
-    }
-
-    
     /*
 .is-danger{
     background-color: #CC6D7F;

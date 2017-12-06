@@ -482,7 +482,7 @@
 .timeline .timeline-item .timeline-marker.is-danger.is-outlined.is-icon > i {
   color: #ff3860 !important;
 }
-
+/*changed*/
 .timeline .timeline-item .timeline-content {
   padding: 1em 0 0 .5em;
   padding: 1em 0 0 2em;
