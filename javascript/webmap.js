@@ -8,11 +8,11 @@ var map = L.map('map',{
 L.esri.basemapLayer('Gray').addTo(map);
 
 //add wedding venues
-L.marker([53.351350, -6.267763],{icon:L.icon.mapkey({icon:'restaurant',size:30,color:'#FFFFFF',background:'#F5E679'})}).addTo(map).bindPopup("The Chocolate Factory").openPopup();
+L.marker([53.351350, -6.267763],{icon:L.icon.mapkey({icon:'restaurant',size:30,color:'#FFFFFF',background:'#F5E679'})}).addTo(map).bindPopup("<strong>Food and Music until late</strong><br>The Chocolate Factory").openPopup();
 
 L.marker([53.344126,-6.266583],{icon:L.icon.mapkey({icon:'tram_stop',size:30,color:'#FFFFFF',background:'#6C7574'})}).addTo(map).bindPopup("Taxi Rank");
 
-L.marker([53.343817,-6.267228],{icon:L.icon.mapkey({icon:'heart',size:30,color:'#FFFFFF',background:'#CC6D7F'})}).addTo(map).bindPopup("City Hall");
+L.marker([53.343817,-6.267228],{icon:L.icon.mapkey({icon:'heart',size:30,color:'#FFFFFF',background:'#CC6D7F'})}).addTo(map).bindPopup("<strong>The Ceremony</strong><br>City Hall");
 
 //hotels
 L.marker([53.354247, -6.266641],{icon:L.icon.mapkey({icon:'hotel_alt',size:30,color:'#FFFFFF',background:'#4C6D9D'})}).addTo(map).bindPopup("The Maldron Hotel");

@@ -6675,6 +6675,7 @@ a.dropdown-item.is-active {
   .navbar.is-primary .navbar-end .navbar-link::after {
     border-color: #fff;
   }
+   
   .navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #00b89c;
@@ -10656,9 +10657,12 @@ label.panel-block:hover {
     padding: 18rem 1.5rem;
   }
 }
-
-.footer {
-  background-color: whitesmoke;
-  padding: 3rem 1.5rem 6rem;
+/*CHANGED*/
+footer{
+    color:#fff;
+    background-color: #6C7574;
+    width:100%;
+    text-align: center;
+    padding: 3rem 1.5rem 6rem;
 }
 /*# sourceMappingURL=bulma.css.map */
