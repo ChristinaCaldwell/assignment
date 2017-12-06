@@ -1819,15 +1819,15 @@ a.box:active {
           box-shadow: none;
   color: whitesmoke;
 }
-
+/* CHANGED COLOR*/
 .button.is-primary {
-  background-color: #00d1b2;
+  background-color: #4C6D9D;
   border-color: transparent;
   color: #fff;
 }
-
+/* CHANGED COLOR*/
 .button.is-primary:hover, .button.is-primary.is-hovered {
-  background-color: #00c4a7;
+  background-color: #99CED5;
   border-color: transparent;
   color: #fff;
 }
@@ -2017,15 +2017,15 @@ a.box:active {
           box-shadow: none;
   color: #fff;
 }
-
+/*CHANGED COLOR*/
 .button.is-info {
-  background-color: #209cee;
+  background-color: #EFB6B7;
   border-color: transparent;
   color: #fff;
 }
-
+/*CHANGED COLOR*/
 .button.is-info:hover, .button.is-info.is-hovered {
-  background-color: #1496ed;
+  background-color: #CC6D7F;
   border-color: transparent;
   color: #fff;
 }
@@ -4471,9 +4471,9 @@ a.box:active {
   height: 128px;
   width: 128px;
 }
-
+/*Changed*/
 .notification {
-  background-color: whitesmoke;
+  background-color: #EFEFEF;
   border-radius: 3px;
   padding: 1.25rem 2.5rem 1.25rem 1.5rem;
   position: relative;
@@ -5014,9 +5014,9 @@ a.box:active {
   background-color: #363636;
   color: whitesmoke;
 }
-
+/*Changed Color*/
 .tag:not(body).is-primary {
-  background-color: #00d1b2;
+  background-color: #4C6D9D;
   color: #fff;
 }
 
@@ -6641,11 +6641,11 @@ a.dropdown-item.is-active {
 .navbar.is-primary .navbar-brand .navbar-link {
   color: #fff;
 }
-
+/*CHANGED*/
 .navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active,
 .navbar.is-primary .navbar-brand .navbar-link:hover,
 .navbar.is-primary .navbar-brand .navbar-link.is-active {
-  background-color: #00b89c;
+  background-color: #4C6D9D;
   color: #fff;
 }
 

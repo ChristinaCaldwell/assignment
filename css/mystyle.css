@@ -21,40 +21,15 @@ body {
         background-color: #EFEFEF;
     }
 
-.button.is-primary{
-    background-color: #4C6D9D;
-    }
-.button.is-info{
-    background-color: #EFB6B7;   
-    }
 .footer{ 
     background-color: #6C7574;
     color:#fff;
     }
-.tag.is-medium.is-primary{
-    background-color: #4C6D9D;
-    }
-
-.button.is-primary:hover{
-  background-color: #99CED5;
-  border-color: transparent;
-  color: #fff;
-}
-
-.timeline-header.tag is-medium is-primary{
-    background-color: #4C6D9D
-}
-.button.is-info:hover{
-  background-color: #CC6D7F;
-  border-color: transparent;
-  color: #fff;
-}
 
     /*
 .is-danger{
     background-color: #CC6D7F;
     }
-    
 .is-warning{
     background-color: #F5E679;
     }
