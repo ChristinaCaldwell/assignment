@@ -4516,10 +4516,11 @@ a.box:active {
   height: 96px;
   width: 96px;
 }
-
+/*CHANGED to make circle*/
 .image.is-128x128 {
   height: 128px;
   width: 128px;
+  border-radius: 50%;
 }
 /*Changed*/
 .notification {
