@@ -4516,11 +4516,10 @@ a.box:active {
   height: 96px;
   width: 96px;
 }
-/*CHANGED to make circles CSS3 but doesn't work*/
+
 .image.is-128x128 {
   height: 128px;
   width: 128px;
-  border-radius: 50%;
 }
 /*Changed*/
 .notification {
@@ -6698,10 +6697,6 @@ a.dropdown-item.is-active {
 .navbar.is-primary .navbar-brand .navbar-link.is-active {
   background-color: #4C6D9D;
   color: #fff;
-}
-/*CHANGED - added to move date in from egde */
-.navbar.is-primary .navbar-brand{
-    margin-left: 15px;
 }
 
 .navbar.is-primary .navbar-brand .navbar-link::after {
