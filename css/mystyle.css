@@ -18,10 +18,6 @@ body {
 @media only screen and (min-width: 1024px) {
     /* For desktop: */
     #map {height: auto;}
-/*added to move date in from egde */
-.navbar.is-primary .navbar-brand{
-    margin-left: 15px;
-}
 
 
 

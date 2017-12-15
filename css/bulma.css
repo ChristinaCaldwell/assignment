@@ -6699,6 +6699,12 @@ a.dropdown-item.is-active {
   color: #fff;
 }
 
+/*CHANGED *added to move date in from egde */
+.navbar.is-primary .navbar-brand{
+    margin-left: 15px;
+}
+
+
 .navbar.is-primary .navbar-brand .navbar-link::after {
   border-color: #fff;
 }
