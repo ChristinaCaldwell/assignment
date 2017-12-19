@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caldwell Choyce wedding page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bulma.css">
+        <link rel="stylesheet" href="css/bulma-timeline.css">
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+    </head>
+    <body>
+   
+<div id ="wrapper">       
+    <header class="hero is-small">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Chris <i class ="fa fa-heart-o" id="heartshadow"></i> Colin
+          </h1>
+            <span></span>
+            <h2 class="subtitle">he asked she said yes...<br> let's have cake</h2>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar is-primary" aria-label="main navigation">
+        <div class="navbar-brand is-size-2">
+        <h2  class="subtitle is-2 has-text-light">August 24 2019</h2>       
+        </div>
+        
+      <div class="navbar-end">
+          <a class = navbar-item href="index.html">Home</a>
+          <a class = navbar-item href="timeline.html">Our Story</a>    
+          <a class = navbar-item href="info.html">The Big Day</a>
+          <a class= navbar-item href="rsvp.html">RSVP</a>
+      </div>
+    </nav>
+    
+    
+    <div class="columns">
+        <div class="column is-three-fifths is-offset-one-fifth">
+            <div class="notification">
+                
+    <form name ="myForm" id="form" method = "get" autocomplete="on">
+    
+    <div class="field">
+      <label class="label">Family Name</label>
+          <div class="control">
+            <input class="input" type="text" name="fName" placeholder="Family name">
+          </div>
+    </div>
+
+    <div class="field">
+        <label class="label">Email address</label>
+              <div class="control has-icons-left">
+                <input class="input is-sucess" type="email" placeholder="Email input" value="yourname@" required>
+                    <span class="icon is-small is-left">
+                      <i class="fa fa-envelope"></i>
+                    </span>
+              </div>
+    </div>
+
+
+    <div class="field">
+        <label class="label">Will you be joining us on our wedding day?</label>
+            <label class="radio">
+                <input type="radio" value="yes" name="answer"> Yes we will be there
+              </label>
+              <label class="radio">
+                <input type="radio" value="no" name="answer"> No sorry we can't make it
+              </label>
+    </div>
+
+    <div class="field">
+        <label class="label">Who will be coming?</label>
+          <label class="radio">
+            <input type="radio" value="adults" name="party">
+              2 Adults Only
+          </label>
+          <label class="radio">
+              <input type="radio" value="adultsandchild" name="party">
+              Adults plus children
+          </label>
+    </div>
+
+    <div class="field">
+          <label class="label">How many children aged 3+?</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                <option>None</option>
+                  <option>One</option>
+                  <option>Two</option>
+                    <option>Three</option>
+                    <option>Four</option>
+                </select>
+              </div>
+            </div>
+    </div>
+    
+
+    <div class="field">
+          <label class="label">Dietary requirements</label>    
+            <label class="checkbox">
+              <input type="checkbox">
+              Vegan 
+            </label>
+            <label class="checkbox">
+              <input type="checkbox">
+               Vegetarian 
+            </label>
+            <label class="checkbox">
+              <input type="checkbox">
+               Gluten-free 
+            </label>
+            <label class="checkbox">
+              <input type="checkbox">
+               Dairy-free 
+            </label>   
+            <label class="checkbox">
+              <input type="checkbox">
+               Egg-free 
+            </label> 
+    </div>    
+            
+    
+    <div class="field">
+        <label class="label">Something to add?</label>
+            <div class="control">
+                <textarea class="textarea" placeholder="Any additional information" rows="6"></textarea>
+            </div>
+    </div>
+
+    <div class="field">
+        <a class="button is-info" onclick = "validateForm()">Send Reply</a>
+        <a class="button is-info is-pulled-right" onclick = "myReset()">Reset Form</a>
+    </div>
+    </form>  
+            </div>
+        </div>
+    </div>
+<!--Footer-->
+<footer class = "footer">
+        <div class="content has-text-centered">
+            <a class="button is-primary" href="https://twitter.com/intent/tweet?button_hashtag=chrisandcolin2019"> 
+                <span class="icon">
+                    <i class="fa fa-twitter"></i>
+                </span>
+                <span>Tweet about our wedding</span>
+                </a>
+            <a class="button is-primary" href = "https://www.instagram.com/explore/tags/chrisandcolin2019">
+                <span class="icon">
+                    <i class="fa fa-instagram"></i>
+                </span>
+            <span>Instagram #chrisandcolin2019</span>
+            </a>
+            <br><br><br>
+            <p>Website designed and written by Christina Caldwell 2017</p>
+        </div>
+</footer>    
+</div> 
+        <script src="javascript/jquery-3.2.1.min.js"></script>
+        <script src="javascript/disable.js"> </script>
+        <script src="javascript/formJS.js"></script>
+
+</body>
+</html>

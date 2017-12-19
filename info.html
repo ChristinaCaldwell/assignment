@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caldwell Choyce wedding page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+        
+        <!-- Load Leaflet from CDN -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+        integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+        integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+        crossorigin=""></script>
+
+        <!-- Load Esri Leaflet from CDN -->
+        <script src="https://unpkg.com/esri-leaflet@2.1.1/dist/esri-leaflet.js"
+        integrity="sha512-ECQqaYZke9cSdqlFG08zSkudgrdF6I1d8ViSa7I3VIszJyVqw4ng1G8sehEXlumdMnFYfzY0tMgdQa4WCs9IUw=="
+        crossorigin=""></script>
+        
+        <!--Map icons-->
+        <link rel="stylesheet" type="text/css" href="dist/L.Icon.Mapkey.css"/>
+    </head>
+<body>   
+<div id ="wrapper">    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header class="hero is-small">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            Chris <i class ="fa fa-heart-o" id="heartshadow"></i> Colin
+          </h1>
+            <span></span>
+            <h2 class="subtitle">he asked she said yes...<br> let's have cake</h2>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar is-primary" aria-label="main navigation">
+        <div class="navbar-brand is-size-2">
+        <h2  class="subtitle is-2 has-text-light">August 24 2019</h2>       
+        </div>
+        
+      <div class="navbar-end">
+          <a class = navbar-item href="index.html">Home</a>
+          <a class = navbar-item href="timeline.html">Our Story</a>    
+          <a class = navbar-item href="info.html">The Big Day</a>
+          <a class= navbar-item href="rsvp.html">RSVP</a>
+      </div>
+    </nav>
+<!--This is the Interactive Leaflet Map -->
+    <div class="columns">
+            <div class="column is-three-fifths" id="map"></div>
+<!--TIMETABLE lIST-->        
+    <div class="column">
+      <div class="container is-fluid">
+        <div class="notification">
+            <h2 class="has-text-weight-bold">Events of the Day</h2>
+                <dl>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-heart"></i> 2pm The Marriage Ceremony</dt> 
+                        <dd>Our guests are invited to join us at the wedding ceremony which will take place in Dublin's City Hall. Children are welcome. We are asked by the venue not to throw confetti.</dd>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-glass"></i> 3pm Reception</dt>
+                        <dd>Immediately after the ceremony there will be a reception where bubbles and canapés will be served in City Hall.</dd>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-taxi"></i> 4:30pm We are on the move!</dt>
+                        <dd> We will be walking across town to the next venue, The Chocolate Factory on 26 King's Inn Street. The walk is 20 minutes on foot for anyone who would like to join us. There is a taxi rank just down the road from City Hall.</dd>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-cutlery"></i> 6pm Dinner</dt>
+                        <dd>We will be sitting down to dinner at the Chocolate Factory. Again children are welcome. Please advise of any dietary requirements when you RSVP.</dd>
+                    <dt class="has-text-weight-semibold"><i class="fa fa-music"></i> 8pm Music Starts</dt>
+                        <dd>Music and Dancing at the Chocolate Factory will begin and won't stop until late...</dd>
+                </dl>
+        </div>
+      </div>
+    </div> 
+    </div>
+    <!-- Accomodation Nested Colums--> 
+    <div class="columns"> 
+            <div class="column">
+            <div class="container is-fluid">
+                <div class="notification">
+                    <h2 class="has-text-weight-bold"><i class="fa fa-h-square"></i> Hotels in the Area</h2>
+                        <dl>
+                            <dt class="has-text-weight-semibold"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><a href="http://www.thewestindublin.com/"> The Westin Hotel</a> </dt> 
+                                <dd>A luxury 5 star Hotel located on Westmoreland Street, Dublin 2</dd>
+                            <dt class="has-text-weight-semibold"><a href="https://www.radissonblu.com/en/royalhotel-dublin"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> The Radisson Blue Hotel</a> </dt> 
+                                <dd>A city centre hotel on the south side, Golden Lane Dublin 8</dd>
+                            <dt class="has-text-weight-semibold"><a href="https://www.maldronhotels.com/hotels/maldron-hotel-parnell-square/"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> The Maldron Hotel</a> </dt> 
+                                <dd>A centrally located Hotel on Parnell Square West, Dublin 1</dd>
+                            <dt class="has-text-weight-semibold"><a href="https://www.jurysinns.com/hotels/dublin/parnell-street"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> Jury's Inns Hotel</a> </dt> 
+                                <dd>Within walking distance of the Chocolate Factory, adjacent to the Ilac Centre</dd>
+                            
+                        </dl>
+                </div>
+            </div>
+        </div>
+            <div class="column" id="bb">
+            <div class="container is-fluid">
+                <div class="notification" >
+                    <h2 class="has-text-weight-bold"><i class="fa fa-bed"></i> B & B's in the area</h2>
+                        <dl>
+                            <dt class="has-text-weight-semibold"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><a href="http://sycamorehouse.ie/"> Sycamore House B&B</a> </dt> 
+                                <dd>Bed and Breakfast located 2.6kms from the city centre</dd>
+                            <dt class="has-text-weight-semibold"><a href="http://kennedysdrumcondra.ie//"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> Kennedy's Drumcondra</a> </dt> 
+                                <dd>A B&B located above Kennedy's Pub in Drumcondra</dd>
+                            <dt class="has-text-weight-semibold"><a href="http://graftonguesthouse.com/"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> The Grafton Guesthouse</a> </dt> 
+                                <dd>Beautiful Guesthouse located on George's Street. Can get a little noisy.</dd>
+                        </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- Nested Colums Iframe Chocolate Factory Website--> 
+    <div class="columns"> 
+        <div class="column">
+            <div class="container is-fluid is-hidden-touch">
+                <div class="notification">
+                    <h2 class="has-text-weight-bold">The Chocolate Factory Venue</h2>
+                        <iframe src="http://www.chocolatefactory.ie/" height="500" width="100%"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!--Footer-->
+<footer class = "footer">
+        <div class="content has-text-centered">
+            <a class="button is-primary" href="https://twitter.com/intent/tweet?button_hashtag=chrisandcolin2019"> 
+                <span class="icon">
+                    <i class="fa fa-twitter"></i>
+                </span>
+                <span>Tweet about our wedding</span>
+                </a>
+            <a class="button is-primary" href = "https://www.instagram.com/explore/tags/chrisandcolin2019">
+                <span class="icon">
+                    <i class="fa fa-instagram"></i>
+                </span>
+            <span>Instagram #chrisandcolin2019</span>
+            </a>
+            <br><br><br>
+            <p>Website designed and written by Christina Caldwell 2017</p>
+        </div>
+</footer>    
+<!--JavaScript links-->    
+<script src="dist/L.Icon.Mapkey.js"></script>    
+<script src="javascript/webmap.js"> </script>
+<script src="javascript/scrollButton.js"> </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#wrapper{
+    background:white;
+    margin:0 auto;
+    border:1px solid #f0e9eb;
+}
+#heartshadow{
+  text-shadow: 2px -3px 5px #EFB6B7, 2px -1px #CC6D7F;
+}
+/* map for mobile*/
+#map {
+    height: 350px;
+    margin: 12px 48px;
+}
+@media only screen and (min-width: 1024px) {
+    /* For desktop: */
+    #map {height: auto;}
+
+
+
+
+
