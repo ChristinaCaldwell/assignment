@@ -1,3 +1,4 @@
+//Written by Christina Caldwell, created mainly using tutorials and quickstart guide on http://leafletjs.com/examples/quick-start/, https://esri.github.io/esri-leaflet/, and http://mapkeyicons.com/
 
 //initalise map
 var map = L.map('map',{

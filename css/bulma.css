@@ -1348,7 +1348,8 @@ a.box:active {
   white-space: nowrap;
 }
 
-/* Changed to create Bulma Style responsive scroll-to-top button and adjusted to appear at bottom of page */
+/* Changed to create Bulma Style responsive scroll-to-top button and adjusted to appear at bottom of page 
+adapted from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
 #myBtn{
   display: none;
   -moz-appearance: none;
